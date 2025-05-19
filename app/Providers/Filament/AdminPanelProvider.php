@@ -62,7 +62,7 @@ class AdminPanelProvider extends PanelProvider
                     ->setSort(20)
                     ->shouldRegisterNavigation(true)
                     ->shouldShowDeleteAccountForm(true)
-                    ->shouldShowSanctumTokens()
+                    ->shouldShowSanctumTokens(false)
                     ->shouldShowBrowserSessionsForm()
                     ->shouldShowAvatarForm(
                         value: true,
